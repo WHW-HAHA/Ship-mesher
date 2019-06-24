@@ -1,0 +1,18 @@
+version: 0.1
+This package used to convert ship linesplan data to .pat file.
+Basic nested structure of previous MATLAB code is:
+
+start.m yes|
+        | load_linesplan.m yes|
+                           | scale_linesplan.m yes
+                           | scaling factors yes|
+                                             | mesh_gui.m  Pending
+                                             | KG yes
+                                             | Kxx yes
+                                             | Kyy yes |
+                                                   | linesplan_size.m yes
+                                                   | Kxx, Kyy, KG yes |
+                                                   | water_depth yes |
+                                                                 | mesh_linesplan.m (without user inputs)? draft changes?
+                                                                 | mesh_linesplan2.m (with user inputs)?
+

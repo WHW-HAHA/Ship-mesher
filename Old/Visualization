@@ -1,0 +1,33 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+
+class Visual():
+    def __init__(self):
+        self.phase = None
+        self.x = []
+        self.y = []
+        self.z = []
+
+    def plot_skeleton(self, data):
+        try:
+            fig = plt.figure()
+            ax = Axes3D(fig)
+            ax.scatter(data)
+
+        except:
+            for cross_section in data:
+                for point in cross_section:
+                    self.x.append(point(0))
+                    self.y.append(point(1))
+                    self.z.append(point(2))
+            fig = plt.figure()
+            ax = Axes3D(fig)
+            ax.scatter(self.x, self.y, self.z)
+            plt.show()
+
+
+
+
+
