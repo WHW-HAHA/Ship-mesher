@@ -1,18 +1,18 @@
-version: 0.1
+version: 0.2
 This package used to convert ship linesplan data to .pat file.
-Basic nested structure of previous MATLAB code is:
 
-start.m yes|
-        | load_linesplan.m yes|
-                           | scale_linesplan.m yes
-                           | scaling factors yes|
-                                             | mesh_gui.m  Pending
+The nested structure is as follows:
+
+Ship_mesh.py yes|
+        | load_linesplan and sort the panel points yes|
+                           | scale_linesplan with scaling factors yes |
+                                             | calculate the natural frequency of the vessel motion, and define the panel size with wave_length (omega)
                                              | KG yes
                                              | Kxx yes
-                                             | Kyy yes |
-                                                   | linesplan_size.m yes
-                                                   | Kxx, Kyy, KG yes |
-                                                   | water_depth yes |
-                                                                 | mesh_linesplan.m (without user inputs)? draft changes?
-                                                                 | mesh_linesplan2.m (with user inputs)?
+                                             | Kyy yes
+                                             | water_depth yes |
+                                                            | equal interpolate the
+                                                                 | mesh_linesplan.m (without user inputs)? draft changes? |
+                                                                 | mesh_linesplan2.m (with user inputs)? |
+                                                                                                    |
 

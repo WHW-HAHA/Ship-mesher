@@ -28,7 +28,6 @@ with open(text_name, 'w') as ship_text:
             ship_text.write(str(point[0])+',' + str(point[2])+',' + str(point[1]) + '\n')
     ship_text.close()
 
-
 # calculat the ship main particulars
 model = pro_ship.Pro_ship()
 model.main_particulars(linesplan.coordinate, linesplan.B/linesplan.L, linesplan.D/linesplan.L, linesplan.name,linesplan.L, linesplan.B, linesplan.T, linesplan.D)
