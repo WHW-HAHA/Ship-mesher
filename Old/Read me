@@ -5,14 +5,15 @@ The nested structure is as follows:
 
 Ship_mesh.py yes|
         | load_linesplan and sort the panel points yes|
-                           | scale_linesplan with scaling factors yes |
-                                             | calculate the natural frequency of the vessel motion, and define the panel size with wave_length (omega)
-                                             | KG yes
-                                             | Kxx yes
-                                             | Kyy yes
+                           | scale_linesplan with scaling factors |
+                           | cut the ship by draft and depth, if the draft is above the depth, just extend without cutting |
+                                             | calculate the natural frequency (omega) of the vessel motion, and define the panel size with wave_length (omega)
+                                             | KG yes  |
+                                             | Kxx yes |
+                                             | Kyy yes |
                                              | water_depth yes |
-                                                            | equal interpolate the
-                                                                 | mesh_linesplan.m (without user inputs)? draft changes? |
-                                                                 | mesh_linesplan2.m (with user inputs)? |
-                                                                                                    |
+                                                            | evenly interpolate the collocation points along the crossections and the keel |
+                                                                                                                                    | mesh the point cloud |
+                                                                                                                                    | save the coordinate, index and connectivity in vtk file|
+
 
