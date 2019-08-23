@@ -63,7 +63,6 @@ class interpolated_ship():
         '''
         interpolate data in 3D curve with equal step
         '''
-
         M = 1000
         t = np.linspace(0, len(y_series), M)
         y_new1 = np.interp(t, np.arange(len(y_series)), y_series)
