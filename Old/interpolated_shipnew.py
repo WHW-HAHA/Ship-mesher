@@ -145,12 +145,14 @@ class interpolated_ship():
         y_crossection = {}
         z_crossection = {}
         Name = []
+
         for i in range(self.num_crossection):
             name = 'crossection' + str(i)
             Name.append(name)
             x_crossection[name], y_crossection[name], z_crossection[name] = self.equal_interpolate(x_slices[i],
                                                                                                    y_slices[i],
                                                                                                    z_slices[i])
+
         mid_num_crossection = np.ceil(self.num_crossection / 2)
         # new_x_crossection use the same ram as x_crossecton, therefore changes together
         # copy to duplicate with 2 ram
@@ -175,10 +177,10 @@ class interpolated_ship():
                     new_y_crossection[name_1] = np.insert(new_y_crossection[name_1], 0, 0)
                     # interplate Z
                     # new_z_crossection[name_1] =  pchip_interpolate(keelpoints[0,:], keelpoints[2,:], new_x_crossection[name_1])
-
                     new_z_crossection[name_1] = np.insert(new_z_crossection[name_1], 0,
                                                           pchip_interpolate(keelpoints[0, :], keelpoints[2, :],
                                                                             min(x_crossection[name_1]) + dx * i))
+
             elif extra < 0:  # in next half crossection
                 for i in range(1, abs(extra) + 1):
                     new_x_crossection[name_2] = np.insert(new_x_crossection[name_2], 0,

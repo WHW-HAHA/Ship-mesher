@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f0b583d-dd81-4cff-a9b2-bc3cbdb59652" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/New/Ship_mesher.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/New/Ship_mesher.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Old/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Old/interpolated_shipnew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Old/interpolated_shipnew.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Old/interpolated_shipnew.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="147" column="45" lean-forward="true" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+            <state relative-caret-position="462">
+              <caret line="142" column="46" lean-forward="true" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -118,7 +117,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11959958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -149,8 +148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Old/interpolated_shipnew.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="147" column="45" lean-forward="true" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+        <state relative-caret-position="462">
+          <caret line="142" column="46" lean-forward="true" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
