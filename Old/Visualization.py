@@ -127,12 +127,6 @@ class Visual():
 
 
 
-
-
-
-
-
-
 '''
     def plot_frame(self):
             self.fram_y_z = PchipInterpolator(np.array(self.y), np.array(self.z))
