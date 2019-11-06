@@ -1,0 +1,2 @@
+The files in this folder are base models,
+they are not exported PATRAN files from the PATRAN Conversion script.
